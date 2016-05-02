@@ -5,7 +5,7 @@ int slen(char str[])
 {
 	int len, i=0;
 	while(str[i]!='\0')i++;
-	len=i;
+		len=i;
 	return len;
 }
 double process(char* ptr[], double calc)
