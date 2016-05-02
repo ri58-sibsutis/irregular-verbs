@@ -16,7 +16,7 @@ double process(char* ptr[], double calc)
 	double flg = 0.0; char userverb[1024] = "";
 	for (i = 0; i < 2; i++)
 	{
-		printf("Допишите %d-ю форму глагола \n", i+2);
+		printf("Dopishite %d formu glagola \n", i+2);
 		scanf("%s", userverb);
 		flg = 0.0;
 		//stroka = {0};
