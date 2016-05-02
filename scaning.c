@@ -7,7 +7,6 @@ int schr(char*str, char ch)
 	int i=0, idx=-1;
 	for(i=0;(str[i]!='\0')&&(str[i]!=ch);i++);
 	if(str[i]==ch) idx=i;
-	//printf("%d=idx\n", idx);
 	return idx;
 }
 int stok(char str[], char delim, char*ptr[])
@@ -27,7 +26,7 @@ int stok(char str[], char delim, char*ptr[])
 double scanning()
 {
 	int j; double calc = 0.0;
-	char* ptr[261] = {0}; //char* usr[261] = {0};
+	char* ptr[261] = {0};
 	FILE *pFile;
 	char line[1024] = "";
 	pFile = fopen("IRR_V.txt", "r");
