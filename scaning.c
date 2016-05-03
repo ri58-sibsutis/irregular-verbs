@@ -34,7 +34,7 @@ double scanning()
 	{
 		fgets(line, 1024, pFile);
 		stok(line, ' ', ptr);
-		printf("\n");
+		printf("Task number %d \n", j + 1);
 		printf("\n the first form = %s \n", ptr[0]);
 		calc = calc + process(ptr, calc);
 		printf ("%f\n", calc);
