@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 #include <stdlib.h>
-#include "scaning.c"
+#include "scaning.h"
 double complete(double pr)
 {
 	pr = pr*5.0;

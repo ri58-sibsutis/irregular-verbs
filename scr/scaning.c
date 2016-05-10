@@ -1,7 +1,9 @@
+#include "scaning.h"
+
 #include <stdio.h>
 #include <locale.h>
 #include <stdlib.h>
-#include "process.c"
+#include "process.h"
 int schr(char*str, char ch)
 {
 	int i=0, idx=-1;
